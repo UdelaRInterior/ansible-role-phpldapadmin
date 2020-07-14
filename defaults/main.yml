@@ -1,0 +1,25 @@
+## The last release does not have the captcha
+## Repos master branch is used
+phpldapadmin_url: 'https://github.com/leenooks/phpLDAPadmin/archive/master.zip'
+phpldapadmin_apache_server_admin: 'admin@{{ inventory_hostname }}'
+phpldapadmin_host: 'ldap://example.com:389'
+phpldapadmin_base: 'dc=base,dc=com'
+phpldapadmin_auth:
+  type: auth_type
+  via: cookie
+phpldapadmin_login_admin:
+  type: bind_id
+  base: 'cn=userldap,ou=group,dc=example,dc=com'
+  type_password: bind_pass
+  password:
+phpldapadmin_certificates:
+  type: tls
+  check: false
+phpldapadmin_login:
+  type: attr
+  objectClass: cn
+  base: 'ou=group,dc=example,dc=com'
+phpldapadmin_hide_template_warning: true
+phpldapadmin_reCAPTCHA_enable: false
+phpldapadmin_reCAPTCHA_key_site:
+phpldapadmin_reCAPTCHA_key_server:

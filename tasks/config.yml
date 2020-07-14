@@ -1,0 +1,8 @@
+
+- name: Copy phpLDAPadmin config
+  template:
+    dest: "/var/www/phpldapadmin/config/config.php"
+    src: config.php.j2
+    owner: root
+    group: root
+    mode: "0644"
