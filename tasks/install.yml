@@ -5,10 +5,8 @@
     state: present
   with_items:
     - unzip
-    - php
     - php-ldap
     - php-xml
-    - apache2
     - libapache2-mod-php
 
 - name: Extract phpLDAPadmin

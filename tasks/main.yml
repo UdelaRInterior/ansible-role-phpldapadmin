@@ -2,8 +2,5 @@
 # install phpldapadmin
 - include_tasks: install.yml
 
-# install apache2
-- include_tasks: apache.yml
-
 # configuration phpldapadmin
 - include_tasks: config.yml

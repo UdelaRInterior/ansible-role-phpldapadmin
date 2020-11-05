@@ -1,6 +1,0 @@
-
-- name: restart apache phpldapadmin
-  service:
-    name: apache2
-    enabled: yes
-    state: restarted

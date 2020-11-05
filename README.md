@@ -2,6 +2,14 @@
 
 Role to install and configure phpLDAPadmin
 
+Dependencies
+------------
+
+[*geerlingguy.apache](https://galaxy.ansible.com/geerlingguy/apache)  
+[*geerlingguy.certbot](https://galaxy.ansible.com/geerlingguy/certbot)
+[*geerlingguy.php](https://galaxy.ansible.com/geerlingguy/php)
+[*geerlingguy.php-versions](https://galaxy.ansible.com/geerlingguy/php-versions)
+
 # Role Variables
 
 Below is the full list of variables:
@@ -40,5 +48,7 @@ GPLv2
 
 Author Information
 ------------------
-
+[@tricovictor](https://github.com/tricovictor)  
+[@UdelaRInterior](https://github.com/UdelaRInterior)  
+https://proyectos.interior.edu.uy/
 https://github.com/UdelaRInterior/ansible-role-phpldapadmin
